@@ -182,6 +182,7 @@ section button {
 
 .container-4 {
     display: grid;
+    grid-template-columns: min-content;
 }
 
 .main-content {
@@ -219,18 +220,17 @@ section button {
     cursor: pointer;
 }
 
-footer {
-    background-color: #00252E;
-    color: white;
+.container-5 {
+    display: grid;
+    grid-template-columns: min-content;
 }
 
-footer img {
-    height: 28px;
-    margin: 0 2rem;
+.logo-bottom {
+    margin-left: 2rem;
 }
 
-footer p {
-    margin: 1rem 2rem 4rem;
+.contact {
+    margin-left: 2rem;
 }
 
 .phone {
@@ -246,13 +246,14 @@ footer p {
 .email a {
     color: #F6FBFF;
     text-decoration: none;
+    padding-left: 5px;
 }
 
 .Social-media {
-    padding: 4rem 1.5rem 4rem;
+    padding-top: 4rem;
 }
 
 .Social-media i {
     font-size: 2.5rem;
-    padding: 10px;
+    padding: 15px;
 }
