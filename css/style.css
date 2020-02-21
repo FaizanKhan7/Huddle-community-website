@@ -167,6 +167,7 @@ section button {
     color: white;
     border: 1px solid hsl(322, 100%, 66%);
     font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
     padding: 15px 40px;
     border-radius: 30px;
     margin: 2.5rem 0 6rem;
@@ -208,6 +209,7 @@ section button {
     margin-left: 11rem;
     background-color: hsl(322, 100%, 66%);
     color: #F6FBFF;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 4rem;
 }
 
